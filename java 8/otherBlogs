@@ -1,0 +1,67 @@
+本文首发于jOOQ博客的Java 8 Friday系列，经原作者Data Geekery GmbH授权由InfoQ中文站编译并分享。
+
+Java 8发布已经有一段时间，它被认为是Java 5发布以来最大的一次版本升级。Java 8提供的新特性主要集中在Java编译器、类库、开发工具以及JVM（Java虚拟机）等方面。其中，Lambda表达式、默认方法、并行API等都受到了开发者的追捧，社区上关于Java 8的学习资料如雨后春笋般出现。下面是一些优秀的学习资料汇总：
+
+Brian Goetz在Stack Overflow上的回答 
+Brian是《Java并发编程实战》的作者之一，有20多年的软件咨询行业经验。Brian是JSR 335的带头者，他和他的专家团队的努力为Java 8的成功做出了重大贡献。下面是Brian在Stack Overflow上关于Java 8相关问题的一些精彩回答：
+
+为什么在Java 8中“synchronized”关键字不能用于接口方法？
+为什么“final”关键字不允许在接口方法中使用？
+《Java 并发编程实战》仍然适用吗？
+如何正确确定一个对象是lambda？
+为什么Iterable不提供stream()和parallelStream()方法？
+在Java 8的并行流方法中使用semaphore可能会导致死锁，这是一个Bug吗？
+为什么不允许把从java.lang.Object中继承的方法定义为默认方法？
+如何比较闭包（Lambda表达式）？
+Java 8串行流与并行流的性能对比
+如何使用Java 8 JDK将Iterable转换为Stream？
+Baeldung的Java 8资料集锦 
+Baeldung是一名软件开发工程师，热衷于Spring、REST、TDD等技术。他在自己的博客上总结了一些Java 8资料。地址如下：
+
+http://www.baeldung.com/java8
+
+jOOQ博客 
+jOOQ是一个轻量级的JAVA ORM框架，在它的官方博客上分享了Java 8与jOOQ相关的经验。下面是近几个月比较流行的文章：
+
+使用Stream API时10个不易察觉的错误
+通过Nashorn和jOOQ在JavaScript中运行SQL
+微妙的语言设计
+Java 8:ORM已经过时了
+Java 8来了，忘掉那些曾经使用的工具包
+学习并发编程
+Map增强
+SQL结果集处理
+Java 8不为人所知的特性：泛型的目标类型推断
+ZeroTurnaround博客 
+作为内容营销的策略之一，ZeroTurnaround在不久前开设了rebellabs专题。专题中有很多与Java相关的文章，下面是一些Java 8方面的精彩分享：
+
+慎用Java 8的默认方法
+Java8是最快的JVM？Fork-Join的基准性能测试
+如何避免Lambda表达式毁了你的世界
+如何组织你的数据流并避免使用回调函数？
+Takipi博客 
+与ZeroTurnaround一样，Takipi也提供了Java 8的相关文章，篇篇精彩：
+
+Java 8：StampedLock，ReadWriteLock以及synchronized的比较
+Java 8那些被冷落的新特性
+15个必读的Java 8教程
+Java 8的新并行API – 魅力与炫目背后
+Java 8的Lambda表达式的阴暗面
+Benji Weber的Java 8体验笔记 
+Benji Weber的Java 8系列博客读起来相当有趣，他在思考问题时总能跳出固有思维去思考问题，比如他对默认方法、方法引用等特性的看法。
+
+使用Nashorn将JSON转换为Java接口
+Java中的模式匹配
+Java值对象
+JavaForwarding-Interface模式
+纯Java数据库查询中的连接操作
+检查异常与流
+在Java中进行类型安全的数据库交互
+Informatech博客 
+Edwin Dalorzo在Informatech上关于Java 8的文章也比较有深度：
+
+为什么Java 8存在接口污染
+Java 8实现斐波那契数列
+Java 8的Optional类
+Java 8 Stream API预览
+Java 8是基于业界的广泛合作开发的，包括公开审查、每周构建以及甲骨文工程师通过OpenJDK社区和 JCP 与全球 Java开发人员社区的广泛合作。Java 8注定是革命性的，它将Java语言升级为“现代”的开发模式。国内社区中也有大批人组织翻译Java 8的相关资料。
